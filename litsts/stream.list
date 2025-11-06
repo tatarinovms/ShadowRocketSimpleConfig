@@ -247,3 +247,10 @@ DOMAIN-SUFFIX,supersliv.biz
 DOMAIN-KEYWORD,soundcloud
 DOMAIN-SUFFIX,deezer.com
 DOMAIN-KEYWORD,deezer
+DOMAIN-SUFFIX,pocketcasts.com
+DOMAIN-SUFFIX,pca.st
+DOMAIN-SUFFIX,podbean.com
+DOMAIN-SUFFIX,pcdn.co
+DOMAIN-SUFFIX,analytics.pocketcasts.com
+USER-AGENT,*Pocket Casts*
+USER-AGENT,com.shiftyjelly.pocketcasts*
