@@ -1,26 +1,3 @@
-# ============================================================
-#
-# whatsapp_cidr_ipv4
-#
-# ipv4 hash:net ipset
-#
-# List of the WhatsApp server IP addresses and ranges.
-#
-# Maintainer      : Meta
-# Maintainer URL  : https://about.meta.com/
-# List source URL : https://developers.facebook.com/docs/whatsapp/guides/network-requirements/
-#
-# Category        : servers
-# Version         : 1
-#
-# This File Date  : 2025-10-26 00:53:05
-# Update Frequency: 24 hours
-# Entries         : 229
-#
-# (C) 2011-2025 HybridNetworks Ltd. -- All Rights Reserved
-#
-# ============================================================
-#
 3.33.221.48/32
 3.33.252.61/32
 15.197.206.217/32
