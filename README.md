@@ -31,6 +31,12 @@
 2. Нажмите на вкладку Config
 3. Нажмите "+" в правом верхнем углу
 4. В поле "URL" введите:
+
+Для скачивания с GitHub:
+   ```
+   https://raw.githubusercontent.com/tatarinovms/ShadowRocketSimpleConfig/master/baseline.conf
+   ```
+Для скачивания с GitVerse:
    ```
    https://raw.githubusercontent.com/tatarinovms/ShadowRocketSimpleConfig/master/baseline.conf
    ```
