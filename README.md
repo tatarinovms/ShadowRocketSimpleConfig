@@ -10,11 +10,11 @@
 
 - **ai.list** — AI-сервисы (ChatGPT, Claude, Gemini, Copilot и другие)
 - **main.list** — Основные сервисы (социальные сети, видео, медиа, новости, инструменты)
-- **meta.list** — Сервисы Meta (Facebook, Instagram, WhatsApp)
-- **payments.list** — Платежные сервисы
+- **meta.list** — Мятные сервисы
 - **PSN.list** — PlayStation Network
-- **Telegram.list** — Мессенджер Telegram
-- **whatsapp_cidr_ipv4.list** — IP-адреса WhatsApp
+- **telegram.list** — Мессенджер от Паши
+- **whatsapp_cidr_ipv4.list** — IP-адреса зелёного мессенджера
+- **rudirect.list** — Правила перенаправления русских сервисов
 
 ## Как использовать ShadowRocket на iOS
 
@@ -38,7 +38,7 @@
    ```
 Для скачивания с GitVerse:
    ```
-   https://raw.githubusercontent.com/tatarinovms/ShadowRocketSimpleConfig/master/baseline.conf
+   https://gitverse.ru/api/repos/tatarinovms/ShadowRocketSimpleConfig/raw/branch/main/baseline.conf
    ```
 5. Нажмите "Download"
 
