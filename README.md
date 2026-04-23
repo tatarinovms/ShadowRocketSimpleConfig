@@ -11,7 +11,7 @@
 - **ai.list** — AI-сервисы (ChatGPT, Claude, Gemini, Copilot и другие)
 - **main.list** — Основные сервисы (социальные сети, видео, медиа, новости, инструменты)
 - **meta.list** — Мятные сервисы
-- **PSN.list** — PlayStation Network
+- **psn.list** — PlayStation Network
 - **telegram.list** — Мессенджер от Паши
 - **whatsapp_cidr_ipv4.list** — IP-адреса зелёного мессенджера
 - **rudirect.list** — Правила перенаправления русских сервисов
