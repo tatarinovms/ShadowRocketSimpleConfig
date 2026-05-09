@@ -69,6 +69,7 @@ DOMAIN-SUFFIX,f1.com
 DOMAIN-SUFFIX,formula1.com
 DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,kino.pub
+DOMAIN-SUFFIX,flexcdn.cloud
 DOMAIN-SUFFIX,cdn32.lol
 DOMAIN-SUFFIX,cdntogo.net
 DOMAIN-SUFFIX,metacritic.com
@@ -88,6 +89,7 @@ USER-AGENT,SoundCloud*
 DOMAIN-KEYWORD,spotify
 USER-AGENT,Spotify*
 DOMAIN-KEYWORD,unsplash
+
 # Новости
 DOMAIN-SUFFIX,datacamp.com
 DOMAIN-SUFFIX,euronews.com
