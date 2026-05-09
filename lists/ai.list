@@ -10,8 +10,6 @@ DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,gpt3-openai.com
 DOMAIN-SUFFIX,openai.fund
 DOMAIN-SUFFIX,openai.org
-DOMAIN,openai.fund
-DOMAIN,openai.org
 # Основные домены
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN,chat.com
