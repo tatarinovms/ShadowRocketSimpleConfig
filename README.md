@@ -13,7 +13,7 @@
 - **meta.list** — Мятные сервисы
 - **psn.list** — PlayStation Network
 - **telegram.list** — Мессенджер от Паши
-- **whatsapp_cidr_ipv4.list** — IP-адреса зелёного мессенджера
+- **fitness.list** - Сервисы для спорта
 - **rudirect.list** — Правила перенаправления русских сервисов
 
 ## Как использовать ShadowRocket на iOS
