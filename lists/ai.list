@@ -100,3 +100,8 @@ DOMAIN,browser-intake-datadoghq.com
 DOMAIN,chatgpt.livekit.cloud
 DOMAIN,host.livekit.cloud
 DOMAIN,turn.livekit.cloud
+
+DOMAIN-SUFFIX,grammarly.com
+DOMAIN-SUFFIX,grammarly.io
+DOMAIN-SUFFIX,kilo.ai
+DOMAIN-SUFFIX,pollo.ai
