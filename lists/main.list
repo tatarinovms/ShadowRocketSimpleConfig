@@ -89,6 +89,8 @@ DOMAIN-SUFFIX,podbean.com
 DOMAIN-SUFFIX,pcdn.co
 DOMAIN-SUFFIX,analytics.pocketcasts.com
 USER-AGENT,*Pocket Casts*
+DOMAIN-SUFFIX,hobbytalks.org
+DOMAIN-SUFFIX,radio-t.com
 USER-AGENT,com.shiftyjelly.pocketcasts*
 DOMAIN-SUFFIX,zona.media
 DOMAIN-KEYWORD,deezer
