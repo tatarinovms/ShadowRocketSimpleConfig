@@ -105,3 +105,11 @@ DOMAIN-SUFFIX,grammarly.com
 DOMAIN-SUFFIX,grammarly.io
 DOMAIN-SUFFIX,kilo.ai
 DOMAIN-SUFFIX,pollo.ai
+# Meta AI / дополнительные AI-сервисы
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,deepl.app
+DOMAIN-SUFFIX,elevenreader.io
+DOMAIN-SUFFIX,manuscdn.com
+DOMAIN-SUFFIX,designify.com
+DOMAIN-SUFFIX,unscreen.com
+DOMAIN-SUFFIX,withgoogle.com

@@ -43,6 +43,7 @@ DOMAIN-SUFFIX,vine.co
 DOMAIN-SUFFIX,x.com
 # Видео и медиа
 # YouTube
+
 DOMAIN-KEYWORD,youtube
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,youtube.ru
@@ -87,10 +88,10 @@ DOMAIN-SUFFIX,pocketcasts.com
 DOMAIN-SUFFIX,pca.st
 DOMAIN-SUFFIX,podbean.com
 DOMAIN-SUFFIX,pcdn.co
+DOMAIN-SUFFIX,radio-t.com
+DOMAIN-SUFFIX,hobbytalks.org
 DOMAIN-SUFFIX,analytics.pocketcasts.com
 USER-AGENT,*Pocket Casts*
-DOMAIN-SUFFIX,hobbytalks.org
-DOMAIN-SUFFIX,radio-t.com
 USER-AGENT,com.shiftyjelly.pocketcasts*
 DOMAIN-SUFFIX,zona.media
 DOMAIN-KEYWORD,deezer
@@ -241,3 +242,55 @@ DOMAIN-SUFFIX,skladchina.biz
 DOMAIN-SUFFIX,santa-secret.ru
 DOMAIN-SUFFIX,vas3k.club
 DOMAIN-SUFFIX,mos-gorsud.site
+DOMAIN-SUFFIX,fmhy.net
+# Google
+DOMAIN-SUFFIX,google.com
+# Продуктивность и инструменты
+DOMAIN-SUFFIX,37signals.com
+DOMAIN-SUFFIX,basecamp.com
+DOMAIN-SUFFIX,basecampapi.com
+DOMAIN-SUFFIX,linear.app
+DOMAIN-SUFFIX,make.com
+DOMAIN-SUFFIX,zapier.com
+DOMAIN-SUFFIX,zapier-deployment.com
+DOMAIN-SUFFIX,myjetbrains.com
+# Базы данных инфраструктура
+DOMAIN-SUFFIX,mongodb.com
+DOMAIN-SUFFIX,oracle.com
+# Браузеры
+DOMAIN-SUFFIX,brave.com
+# Железо и бренды
+DOMAIN-SUFFIX,amd.com
+DOMAIN-SUFFIX,nvidia.com
+DOMAIN-SUFFIX,dell.com
+DOMAIN-SUFFIX,dellcdn.com
+DOMAIN-SUFFIX,dyson.de
+DOMAIN-SUFFIX,dyson.se
+DOMAIN-SUFFIX,intel.de
+DOMAIN-SUFFIX,intel.se
+# Adobe / Canva
+DOMAIN-SUFFIX,adobe.io
+DOMAIN-SUFFIX,canva-apps.com
+# Соц.сети
+DOMAIN-SUFFIX,truthsocial.com
+# Погода
+DOMAIN-SUFFIX,weather.com
+DOMAIN-SUFFIX,w-x.co
+DOMAIN-SUFFIX,wund.com
+DOMAIN-SUFFIX,wunderground.com
+DOMAIN-SUFFIX,wxug.com
+# Microsoft / Twitch
+DOMAIN-SUFFIX,live.net
+DOMAIN-SUFFIX,windows.net
+DOMAIN-SUFFIX,ttvnw.net
+# Privacy / web
+DOMAIN-SUFFIX,onetrust.com
+DOMAIN-SUFFIX,archive.org
+DOMAIN-SUFFIX,contentstack.io
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,pki.goog
+# Trimble (SketchUp)
+DOMAIN-SUFFIX,sketchup.com
+DOMAIN-SUFFIX,trimble.com
+# Google Play
+DOMAIN-SUFFIX,googleplay.com

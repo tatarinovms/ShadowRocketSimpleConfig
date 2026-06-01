@@ -58,6 +58,7 @@ DOMAIN-SUFFIX,tonapi.com
 DOMAIN-SUFFIX,tonkeeper.com
 DOMAIN-SUFFIX,tx.me
 DOMAIN-SUFFIX,usercontent.dev
+DOMAIN-SUFFIX,ton.org
 DOMAIN-KEYWORD,nicegram
 IP-CIDR,109.239.140.0/24,no-resolve
 IP-CIDR,139.59.210.98/32,no-resolve

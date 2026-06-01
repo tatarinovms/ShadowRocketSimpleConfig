@@ -1,0 +1,13 @@
+DOMAIN-SUFFIX,playstation.com
+DOMAIN-SUFFIX,playstation.net
+DOMAIN-SUFFIX,playstationnetwork.com
+DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+# Xbox
+DOMAIN-SUFFIX,xbox.com
+DOMAIN-SUFFIX,xboxlive.com
+# Прочие игровые платформы / издатели
+DOMAIN-SUFFIX,guilded.gg
+DOMAIN-SUFFIX,elgato.com
+DOMAIN-SUFFIX,wbgames.com
+DOMAIN-SUFFIX,wbagora.com
+DOMAIN-SUFFIX,guidedhacking.com
