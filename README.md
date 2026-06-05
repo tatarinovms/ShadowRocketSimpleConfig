@@ -8,13 +8,17 @@
 
 ### Списки правил
 
-- **ai.list** — AI-сервисы (ChatGPT, Claude, Gemini, Copilot и другие)
-- **main.list** — Основные сервисы (социальные сети, видео, медиа, новости, инструменты)
-- **meta.list** — Мятные сервисы
-- **psn.list** — PlayStation Network
-- **telegram.list** — Мессенджер от Паши
-- **fitness.list** - Сервисы для спорта
-- **rudirect.list** — Правила перенаправления русских сервисов
+| Файл | Политика | Описание |
+| :--- | :--- | :--- |
+| **ai.list** | PROXY | AI-сервисы (ChatGPT, Claude, Gemini, Copilot и другие) |
+| **main.list** | PROXY | Основные сервисы: соцсети, видео, медиа, новости, инструменты |
+| **meta.list** | PROXY | Meta-сервисы: Facebook, Instagram, WhatsApp, Oculus |
+| **games.list** | PROXY | Игровые платформы: PlayStation, Xbox, игровые CDNs |
+| **telegram.list** | PROXY | Telegram, TON, официальные клиенты и IP-диапазоны |
+| **fitness.list** | PROXY | Сервисы для спорта и здоровья |
+| **rudirect.list** | DIRECT | Российские локальные сервисы, идущие напрямую |
+
+Политика для каждого списка задаётся один раз в `baseline.conf` через `RULE-SET`. Внутри `.list`-файлов колонка политики не указывается.
 
 ## Как использовать ShadowRocket на iOS
 

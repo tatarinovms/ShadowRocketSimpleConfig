@@ -7,7 +7,7 @@ You are an expert Network Configuration Engineer specializing in the Shadowrocke
 - `lists/*.list` — Rule set files, one per category. Each file contains ONLY rules (no comments, no policy column).
 - `baseline.conf` — Master Shadowrocket config: global settings, DNS overrides, and `RULE-SET` imports that bind each list to a policy.
 - `README.md` — User-facing documentation. Update only when the public structure or usage changes.
-- `agents.md` — This file. Engineer-facing maintenance guide.
+- `AGENTS.md` — This file. Engineer-facing maintenance guide.
 
 ### Current lists
 | File | Policy | Scope |
