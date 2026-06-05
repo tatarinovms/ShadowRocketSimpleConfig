@@ -1,3 +1,4 @@
+# Социальные сети и мессенджеры
 DOMAIN-SUFFIX,appstorrent.ru
 DOMAIN-KEYWORD,discord
 DOMAIN-KEYWORD,viber
@@ -40,6 +41,9 @@ DOMAIN-SUFFIX,twttr.net
 DOMAIN-SUFFIX,twvid.com
 DOMAIN-SUFFIX,vine.co
 DOMAIN-SUFFIX,x.com
+# Видео и медиа
+# YouTube
+
 DOMAIN-KEYWORD,youtube
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,youtube.ru
@@ -71,11 +75,15 @@ DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,youtube-ui.l.google.com
+# Прочие медиа
 DOMAIN-SUFFIX,deezer.com
 DOMAIN-SUFFIX,f1.com
 DOMAIN-SUFFIX,formula1.com
 DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,kino.pub
+DOMAIN-SUFFIX,kpapp.link
+DOMAIN-SUFFIX,pushbr.com
+DOMAIN-SUFFIX,appdb.to
 DOMAIN-SUFFIX,cdn32.lol
 DOMAIN-SUFFIX,cdntogo.net
 DOMAIN-SUFFIX,metacritic.com
@@ -102,6 +110,7 @@ USER-AGENT,*com.google.ios.youtubemusic*
 USER-AGENT,YouTubeMusic*
 USER-AGENT,com.google.ios.youtubemusic*
 DOMAIN-KEYWORD,unsplash
+# Новости
 DOMAIN-SUFFIX,datacamp.com
 DOMAIN-SUFFIX,euronews.com
 DOMAIN-SUFFIX,exler.ru
@@ -110,11 +119,13 @@ DOMAIN-SUFFIX,habr.com
 DOMAIN-SUFFIX,ign.com
 DOMAIN-SUFFIX,itdog.info
 DOMAIN-SUFFIX,ohmyswift.ru
+# Электронная коммерция и сервисы
 DOMAIN-SUFFIX,dyson.com
 DOMAIN-SUFFIX,iherb.com
 DOMAIN-SUFFIX,ikea.com
 DOMAIN-SUFFIX,patreon.com
 DOMAIN-SUFFIX,premierleague.com
+# Игры
 DOMAIN-SUFFIX,anzu-us.com
 DOMAIN-SUFFIX,cdn.id.supercell.com
 DOMAIN-SUFFIX,clashofclans.com
@@ -124,6 +135,7 @@ DOMAIN-SUFFIX,game.boombeachgame.com
 DOMAIN-SUFFIX,game.clashofclans.com
 DOMAIN-SUFFIX,gameloft.com
 DOMAIN-SUFFIX,security.id.supercell.com
+# Продуктивность и инструменты
 DOMAIN-KEYWORD,adguard
 DOMAIN-KEYWORD,notion
 DOMAIN-SUFFIX,canva.com
@@ -166,6 +178,7 @@ DOMAIN-SUFFIX,pexels.com
 DOMAIN-SUFFIX,remove.bg
 DOMAIN-SUFFIX,notepad-plus-plus.org
 DOMAIN-SUFFIX,sidestore.io
+# Почта
 DOMAIN-SUFFIX,aka.ms
 DOMAIN-SUFFIX,graph.microsoft.com
 DOMAIN-SUFFIX,live.com
@@ -178,6 +191,7 @@ DOMAIN-SUFFIX,outlook.office365.com
 DOMAIN-SUFFIX,imap-mail.outlook.com
 DOMAIN-SUFFIX,pop-mail.outlook.com
 DOMAIN-SUFFIX,smtp-mail.outlook.com
+# Приватность, безопасность, анонимность
 DOMAIN-SUFFIX,10minutemail.com
 DOMAIN-SUFFIX,adguard.com
 DOMAIN-SUFFIX,cock.li
@@ -201,6 +215,7 @@ DOMAIN-SUFFIX,vpnpay.io
 DOMAIN-SUFFIX,vpngate.net
 DOMAIN-SUFFIX,vpngen.org
 DOMAIN-SUFFIX,vpnlove.me
+# Сетевые утилиты и инфраструктура
 DOMAIN-SUFFIX,amnezia.org
 DOMAIN-SUFFIX,browserleaks.com
 DOMAIN-SUFFIX,maxmind.com
@@ -209,10 +224,12 @@ DOMAIN-SUFFIX,parallels.com
 DOMAIN-SUFFIX,parallelsaccess.com
 DOMAIN-SUFFIX,vdsina.com
 DOMAIN-SUFFIX,netify.ai
+# Аналитика и BI
 DOMAIN-SUFFIX,redis.io
 DOMAIN-SUFFIX,tableau.com
 DOMAIN-SUFFIX,tableausoftware.com
 DOMAIN-SUFFIX,tableauusercontent.com
+# Файлообмен
 DOMAIN-KEYWORD,4pda
 DOMAIN-KEYWORD,flibusta
 DOMAIN-KEYWORD,hdrezka
@@ -229,7 +246,9 @@ DOMAIN-SUFFIX,santa-secret.ru
 DOMAIN-SUFFIX,vas3k.club
 DOMAIN-SUFFIX,mos-gorsud.site
 DOMAIN-SUFFIX,fmhy.net
+# Google
 DOMAIN-SUFFIX,google.com
+# Продуктивность и инструменты
 DOMAIN-SUFFIX,37signals.com
 DOMAIN-SUFFIX,basecamp.com
 DOMAIN-SUFFIX,basecampapi.com
@@ -238,9 +257,12 @@ DOMAIN-SUFFIX,make.com
 DOMAIN-SUFFIX,zapier.com
 DOMAIN-SUFFIX,zapier-deployment.com
 DOMAIN-SUFFIX,myjetbrains.com
+# Базы данных инфраструктура
 DOMAIN-SUFFIX,mongodb.com
 DOMAIN-SUFFIX,oracle.com
+# Браузеры
 DOMAIN-SUFFIX,brave.com
+# Железо и бренды
 DOMAIN-SUFFIX,amd.com
 DOMAIN-SUFFIX,nvidia.com
 DOMAIN-SUFFIX,dell.com
@@ -249,22 +271,29 @@ DOMAIN-SUFFIX,dyson.de
 DOMAIN-SUFFIX,dyson.se
 DOMAIN-SUFFIX,intel.de
 DOMAIN-SUFFIX,intel.se
+# Adobe / Canva
 DOMAIN-SUFFIX,adobe.io
 DOMAIN-SUFFIX,canva-apps.com
+# Соц.сети
 DOMAIN-SUFFIX,truthsocial.com
+# Погода
 DOMAIN-SUFFIX,weather.com
 DOMAIN-SUFFIX,w-x.co
 DOMAIN-SUFFIX,wund.com
 DOMAIN-SUFFIX,wunderground.com
 DOMAIN-SUFFIX,wxug.com
+# Microsoft / Twitch
 DOMAIN-SUFFIX,live.net
 DOMAIN-SUFFIX,windows.net
 DOMAIN-SUFFIX,ttvnw.net
+# Privacy / web
 DOMAIN-SUFFIX,onetrust.com
 DOMAIN-SUFFIX,archive.org
 DOMAIN-SUFFIX,contentstack.io
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,pki.goog
+# Trimble (SketchUp)
 DOMAIN-SUFFIX,sketchup.com
 DOMAIN-SUFFIX,trimble.com
+# Google Play
 DOMAIN-SUFFIX,googleplay.com
