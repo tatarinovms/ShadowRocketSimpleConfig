@@ -1,13 +1,20 @@
+DOMAIN-SUFFIX,anzu-us.com
+DOMAIN-SUFFIX,cdn.id.supercell.com
+DOMAIN-SUFFIX,clashofclans.com
+DOMAIN-SUFFIX,clashofclans.inbox.supercell.com
+DOMAIN-SUFFIX,elgato.com
+DOMAIN-SUFFIX,game-assets.clashofclans.com
+DOMAIN-SUFFIX,game.boombeachgame.com
+DOMAIN-SUFFIX,game.clashofclans.com
+DOMAIN-SUFFIX,gameloft.com
+DOMAIN-SUFFIX,guidedhacking.com
+DOMAIN-SUFFIX,guilded.gg
 DOMAIN-SUFFIX,playstation.com
 DOMAIN-SUFFIX,playstation.net
 DOMAIN-SUFFIX,playstationnetwork.com
+DOMAIN-SUFFIX,security.id.supercell.com
 DOMAIN-SUFFIX,sonyentertainmentnetwork.com
-# Xbox
+DOMAIN-SUFFIX,wbagora.com
+DOMAIN-SUFFIX,wbgames.com
 DOMAIN-SUFFIX,xbox.com
 DOMAIN-SUFFIX,xboxlive.com
-# Прочие игровые платформы / издатели
-DOMAIN-SUFFIX,guilded.gg
-DOMAIN-SUFFIX,elgato.com
-DOMAIN-SUFFIX,wbgames.com
-DOMAIN-SUFFIX,wbagora.com
-DOMAIN-SUFFIX,guidedhacking.com
