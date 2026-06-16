@@ -55,11 +55,32 @@
 5. В поле Remark введите название Proxy
 6. Нажмите "Save"
 
-### Шаг 4: Активация
+# Шаг 4: Настройка GeoLite2 Database
+
+1. Settings → GeoLite2 Database
+2. Если у вас нет аккаунта на Maxmind и вы испольузуете финальное правило Proxy или Auto
+3. В поле Сountry введите: 
+
+```
+https://cdn.jsdelivr.net/gh/P3TERX/GeoLite.mmdb@download/GeoLite2-Country.mmdb
+```
+
+Нажмите Update
+
+4. В поле ASN введите: 
+
+```
+https://cdn.jsdelivr.net/gh/P3TERX/GeoLite.mmdb@download/GeoLite2-ASN.mmdb
+```
+
+Нажмите Update
+
+### Шаг 5: Активация
 
 1. Перейдите в Home
 2. Выберите в поле Global Routing - Config
 3. Переключите тумблер вверху в состояние — Включено
+
 
 ## Автоматическое обновление
 
