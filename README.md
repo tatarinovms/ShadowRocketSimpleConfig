@@ -55,7 +55,7 @@
 5. В поле Remark введите название Proxy
 6. Нажмите "Save"
 
-# Шаг 4: Настройка GeoLite2 Database
+### Шаг 4: Настройка GeoLite2 Database
 
 1. Settings → GeoLite2 Database
 2. Если у вас нет аккаунта на Maxmind и вы испольузуете финальное правило Proxy или Auto
