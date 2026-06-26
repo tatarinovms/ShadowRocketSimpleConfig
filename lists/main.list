@@ -55,6 +55,7 @@ DOMAIN-SUFFIX,freeimages.com
 DOMAIN-SUFFIX,game.boombeachgame.com
 DOMAIN-SUFFIX,gameloft.com
 DOMAIN-SUFFIX,getoutline.org
+DOMAIN-SUFFIX,ggpht.cn
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,googleapis.com
@@ -82,6 +83,7 @@ DOMAIN-SUFFIX,intellij.com
 DOMAIN-SUFFIX,intellij.net
 DOMAIN-SUFFIX,intellij.org
 DOMAIN-SUFFIX,itdog.info
+DOMAIN-SUFFIX,jetbrain.cloud
 DOMAIN-SUFFIX,jetbrains.ai
 DOMAIN-SUFFIX,jetbrains.com
 DOMAIN-SUFFIX,jetbrains.io
@@ -127,6 +129,9 @@ DOMAIN-SUFFIX,nvidia.com
 DOMAIN-SUFFIX,office.com
 DOMAIN-SUFFIX,office365.com
 DOMAIN-SUFFIX,ohmyswift.ru
+DOMAIN-SUFFIX,okko.tv
+DOMAIN-SUFFIX,ondigitalocean.app
+DOMAIN-SUFFIX,onelya.ru
 DOMAIN-SUFFIX,onetrust.com
 DOMAIN-SUFFIX,oracle.com
 DOMAIN-SUFFIX,p-cdn.us
@@ -161,20 +166,27 @@ DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,seasonvar.ru
 DOMAIN-SUFFIX,security.id.supercell.com
 DOMAIN-SUFFIX,semrush.com
+DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,setapp.com
+DOMAIN-SUFFIX,shipbook.io
 DOMAIN-SUFFIX,sidestore.io
 DOMAIN-SUFFIX,sketchup.com
 DOMAIN-SUFFIX,skladchik.com
 DOMAIN-SUFFIX,skladchina.biz
 DOMAIN-SUFFIX,smtp-mail.outlook.com
 DOMAIN-SUFFIX,sndcdn.com
+DOMAIN-SUFFIX,soi.lat
 DOMAIN-SUFFIX,soundcloud.com
 DOMAIN-SUFFIX,splunkcloud.com
+DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,steamserver.net
+DOMAIN-SUFFIX,steamstatic.com
 DOMAIN-SUFFIX,surfshark.com
 DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,tableau.com
 DOMAIN-SUFFIX,tableausoftware.com
 DOMAIN-SUFFIX,tableauusercontent.com
+DOMAIN-SUFFIX,teampowered.com
 DOMAIN-SUFFIX,tellapart.com
 DOMAIN-SUFFIX,terraform.io
 DOMAIN-SUFFIX,themoviedb.org
@@ -217,6 +229,7 @@ DOMAIN-SUFFIX,wunderground.com
 DOMAIN-SUFFIX,wxug.com
 DOMAIN-SUFFIX,x-minus.pro
 DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,xiaoji.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,youtube-nocookie.com
 DOMAIN-SUFFIX,youtube.com
@@ -226,6 +239,7 @@ DOMAIN-SUFFIX,youtubegaming.com
 DOMAIN-SUFFIX,youtubego.com
 DOMAIN-SUFFIX,youtubekids.com
 DOMAIN-SUFFIX,youtubemobilesupport.com
+DOMAIN-SUFFIX,youwo.com
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,yting.com
@@ -249,6 +263,16 @@ DOMAIN-KEYWORD,unsplash
 DOMAIN-KEYWORD,viber
 DOMAIN-KEYWORD,youtube
 USER-AGENT,*Pocket Casts*
-USER-AGENT,com.shiftyjelly.pocketcasts*
+USER-AGENT,*YouTubeMusic*
+USER-AGENT,*com.google.ios.youtubemusic*
+USER-AGENT,*youtube*
 USER-AGENT,SoundCloud*
 USER-AGENT,Spotify*
+USER-AGENT,YouTube*
+USER-AGENT,YouTubeMusic*
+USER-AGENT,com.google.ios.youtube*
+USER-AGENT,com.google.ios.youtubemusic*
+USER-AGENT,com.shiftyjelly.pocketcasts*
+IP-CIDR,172.110.32.0/21,no-resolve
+IP-CIDR,216.73.80.0/20,no-resolve
+IP-CIDR,2620:120:e000::/40,no-resolve
