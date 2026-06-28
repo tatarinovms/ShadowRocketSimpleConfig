@@ -1,3 +1,5 @@
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/tatarinovms/ShadowRocketSimpleConfig)
+
 # ShadowRocketSimpleConfig
 
 Простой и эффективный набор правил маршрутизации для клиента ShadowRocket на iOS.
