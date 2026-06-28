@@ -18,6 +18,7 @@
 | **games.list** | PROXY | Игровые платформы: PlayStation, Xbox, игровые CDNs |
 | **telegram.list** | PROXY | Telegram, TON, официальные клиенты и IP-диапазоны |
 | **fitness.list** | PROXY | Сервисы для спорта и здоровья |
+| **youtube.list** | PROXY | YouTube, YouTube Music, связанные CDN |
 | **rudirect.list** | DIRECT | Российские локальные сервисы, идущие напрямую |
 
 Политика для каждого списка задаётся один раз в `baseline.conf` через `RULE-SET`. Внутри `.list`-файлов колонка политики не указывается.
