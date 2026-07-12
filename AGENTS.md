@@ -20,6 +20,7 @@ You are an expert Network Configuration Engineer specializing in the Shadowrocke
 | `rubanking.list` | DIRECT | Russian banks, fintech, financial services |
 | `rudirect.list` | DIRECT | Russian local services (gov, retail, telecom, media, .ru/.рф) |
 | `ruipchecker.list` | DIRECT | IP check services used by Russian apps |
+| `ruads.list` | REJECT | Russian ad/tracker domains (Mail.ru ad network) |
 | `telegram.list` | PROXY | Telegram, TON, official clients, IP ranges |
 | `youtube.list` | PROXY | YouTube, YouTube Music, related CDNs |
 
