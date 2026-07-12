@@ -14,15 +14,15 @@
 | :--- | :--- | :--- |
 | **ai.list** | PROXY | AI-сервисы (ChatGPT, Claude, Gemini, Copilot и другие) |
 | **main.list** | PROXY | Основные сервисы: соцсети, видео, медиа, новости, инструменты |
-| **meta.list** | PROXY | Meta-сервисы: Facebook, Instagram, WhatsApp, Oculus |
+| **zetaservices.list** | PROXY | Сервисы аналога ВК |
 | **games.list** | PROXY | Игровые платформы: PlayStation, Xbox, Supercell, Gameloft, игровые CDNs |
-| **telegram.list** | PROXY | Telegram, TON, официальные клиенты и IP-диапазоны |
+| **nevamessenger.list** | PROXY | Мессенджер родом из города на Неве |
 | **fitness.list** | PROXY | Сервисы для спорта и здоровья |
-| **youtube.list** | PROXY | YouTube, YouTube Music, связанные CDN |
+| **redtube.list** | PROXY | RedTube, RedMusic и CDN для них |
 | **rudirect.list** | DIRECT | Российские локальные сервисы, идущие напрямую |
 | **rubanking.list** | DIRECT | Российские банки и финансовые сервисы |
 | **ruipchecker.list** | DIRECT | Сервисы проверки IP-адреса |
-| **ruads.list** | REJECT | Российские рекламные, трекинговые и аналитические домены (блокируются) |
+| **ruads.list** | REJECT | Российские рекламные, трекинговые и аналитические домены |
 
 Политика для каждого списка задаётся один раз в `baseline.conf` через `RULE-SET`. Внутри `.list`-файлов колонка политики не указывается.
 

@@ -9,21 +9,6 @@ You are an expert Network Configuration Engineer specializing in the Shadowrocke
 - `README.md` — User-facing documentation. Update only when the public structure or usage changes.
 - `AGENTS.md` — This file. Engineer-facing maintenance guide.
 
-### Current lists
-| File | Policy | Scope |
-| :--- | :--- | :--- |
-| `ai.list` | PROXY | LLMs, AI APIs, AI-related CDNs |
-| `fitness.list` | PROXY | Workout, health and nutrition tracking |
-| `games.list` | PROXY | PlayStation, Xbox, gaming publishers, game CDNs |
-| `main.list` | PROXY | General services: media, social, tools, productivity, hardware |
-| `meta.list` | PROXY | Facebook, Instagram, WhatsApp, Meta, Oculus, typosquats |
-| `rubanking.list` | DIRECT | Russian banks, fintech, financial services |
-| `rudirect.list` | DIRECT | Russian local services (gov, retail, telecom, media, .ru/.рф) |
-| `ruipchecker.list` | DIRECT | IP check services used by Russian apps |
-| `ruads.list` | REJECT | Russian ad/tracker domains (Mail.ru ad network) |
-| `telegram.list` | PROXY | Telegram, TON, official clients, IP ranges |
-| `youtube.list` | PROXY | YouTube, YouTube Music, related CDNs |
-
 The policy for each list is set ONCE in `baseline.conf` via `RULE-SET, ...list,<POLICY>`. Individual rules inside `.list` files do NOT carry a policy column.
 
 ---
