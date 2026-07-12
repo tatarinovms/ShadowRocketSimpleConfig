@@ -25,12 +25,9 @@ DOMAIN-SUFFIX,browserleaks.com
 DOMAIN-SUFFIX,canva-apps.com
 DOMAIN-SUFFIX,canva.com
 DOMAIN-SUFFIX,canva.dev
-DOMAIN-SUFFIX,cdn.id.supercell.com
 DOMAIN-SUFFIX,cdn32.lol
 DOMAIN-SUFFIX,cdntogo.net
 DOMAIN-SUFFIX,censortracker.org
-DOMAIN-SUFFIX,clashofclans.com
-DOMAIN-SUFFIX,clashofclans.inbox.supercell.com
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,cms-twdigitalassets.com
 DOMAIN-SUFFIX,cock.li
@@ -52,19 +49,13 @@ DOMAIN-SUFFIX,f1.com
 DOMAIN-SUFFIX,fmhy.net
 DOMAIN-SUFFIX,formula1.com
 DOMAIN-SUFFIX,freeimages.com
-DOMAIN-SUFFIX,game.boombeachgame.com
-DOMAIN-SUFFIX,gameloft.com
 DOMAIN-SUFFIX,getoutline.org
-DOMAIN-SUFFIX,ggpht.cn
-DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,googleplay.com
 DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,grazie.ai
 DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,gvt1.com
-DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,habr.com
 DOMAIN-SUFFIX,hackernoon.com
 DOMAIN-SUFFIX,harvestapp.com
@@ -160,7 +151,6 @@ DOMAIN-SUFFIX,remove.bg
 DOMAIN-SUFFIX,santa-secret.ru
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,seasonvar.ru
-DOMAIN-SUFFIX,security.id.supercell.com
 DOMAIN-SUFFIX,semrush.com
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,setapp.com
@@ -248,6 +238,3 @@ USER-AGENT,*Pocket Casts*
 USER-AGENT,com.shiftyjelly.pocketcasts*
 USER-AGENT,SoundCloud*
 USER-AGENT,Spotify*
-IP-CIDR,172.110.32.0/21,no-resolve
-IP-CIDR,216.73.80.0/20,no-resolve
-IP-CIDR,2620:120:e000::/40,no-resolve

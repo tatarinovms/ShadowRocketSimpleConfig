@@ -1,18 +1,30 @@
+DOMAIN-SUFFIX,ggpht.cn
+DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,returnyoutubedislikeapi.com
+DOMAIN-SUFFIX,video.google.com
 DOMAIN-SUFFIX,withyoutube.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,youtube-nocookie.com
 DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,youtube.ru
+DOMAIN-SUFFIX,youtube.googleapis.com
 DOMAIN-SUFFIX,youtubeeducation.com
+DOMAIN-SUFFIX,youtubeembeddedplayer.googleapis.com
+DOMAIN-SUFFIX,youtubefanfest.com
 DOMAIN-SUFFIX,youtubegaming.com
+DOMAIN-SUFFIX,youtubego.co.id
+DOMAIN-SUFFIX,youtubego.co.in
 DOMAIN-SUFFIX,youtubego.com
+DOMAIN-SUFFIX,youtubego.id
+DOMAIN-SUFFIX,youtubego.in
+DOMAIN-SUFFIX,youtubei.googleapis.com
 DOMAIN-SUFFIX,youtubekids.com
 DOMAIN-SUFFIX,youtubemobilesupport.com
+DOMAIN-SUFFIX,youtubing.com
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
-DOMAIN-SUFFIX,yting.com
 
 DOMAIN-KEYWORD,youtube
 
@@ -20,6 +32,9 @@ USER-AGENT,*com.google.ios.youtubemusic*
 USER-AGENT,*youtube*
 USER-AGENT,*YouTubeMusic*
 USER-AGENT,com.google.ios.youtube*
-USER-AGENT,com.google.ios.youtubemusic*
 USER-AGENT,YouTube*
 USER-AGENT,YouTubeMusic*
+
+IP-CIDR,172.110.32.0/21,no-resolve
+IP-CIDR,216.73.80.0/20,no-resolve
+IP-CIDR6,2620:120:e000::/40,no-resolve

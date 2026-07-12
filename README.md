@@ -15,11 +15,13 @@
 | **ai.list** | PROXY | AI-сервисы (ChatGPT, Claude, Gemini, Copilot и другие) |
 | **main.list** | PROXY | Основные сервисы: соцсети, видео, медиа, новости, инструменты |
 | **meta.list** | PROXY | Meta-сервисы: Facebook, Instagram, WhatsApp, Oculus |
-| **games.list** | PROXY | Игровые платформы: PlayStation, Xbox, игровые CDNs |
+| **games.list** | PROXY | Игровые платформы: PlayStation, Xbox, Supercell, Gameloft, игровые CDNs |
 | **telegram.list** | PROXY | Telegram, TON, официальные клиенты и IP-диапазоны |
 | **fitness.list** | PROXY | Сервисы для спорта и здоровья |
 | **youtube.list** | PROXY | YouTube, YouTube Music, связанные CDN |
 | **rudirect.list** | DIRECT | Российские локальные сервисы, идущие напрямую |
+| **rubanking.list** | DIRECT | Российские банки и финансовые сервисы |
+| **ruipchecker.list** | DIRECT | Сервисы проверки IP-адреса |
 
 Политика для каждого списка задаётся один раз в `baseline.conf` через `RULE-SET`. Внутри `.list`-файлов колонка политики не указывается.
 
@@ -61,8 +63,8 @@
 ### Шаг 4: Настройка GeoLite2 Database
 
 1. Settings → GeoLite2 Database
-2. Если у вас нет аккаунта на Maxmind и вы испольузуете финальное правило Proxy или Auto
-3. В поле Сountry введите: 
+2. Если у вас нет аккаунта на Maxmind и вы используете финальное правило Proxy или Auto
+3. В поле Country введите: 
 
 ```
 https://cdn.jsdelivr.net/gh/P3TERX/GeoLite.mmdb@download/GeoLite2-Country.mmdb
