@@ -1,0 +1,16 @@
+DOMAIN-SUFFIX,deezer.com
+DOMAIN-SUFFIX,genius.com
+DOMAIN-SUFFIX,musicbrainz.org
+DOMAIN-SUFFIX,onlineradiobox.com
+DOMAIN-SUFFIX,soundcloud.com
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,tidal.com
+DOMAIN-SUFFIX,pocketcasts.com
+DOMAIN-SUFFIX,mixcloud.com
+DOMAIN-SUFFIX,podbean.com
+DOMAIN-KEYWORD,deezer
+DOMAIN-KEYWORD,spotify
+USER-AGENT,*Pocket Casts*
+USER-AGENT,com.shiftyjelly.pocketcasts*
+USER-AGENT,SoundCloud*
+USER-AGENT,Spotify*

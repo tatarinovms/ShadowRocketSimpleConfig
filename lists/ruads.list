@@ -164,3 +164,12 @@ DOMAIN,yads.tech
 DOMAIN,yandex-metrica.ru
 DOMAIN,yandexmetrica.com
 DOMAIN,yango-ads.com
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,googleadapis.com
+DOMAIN,adservice.google.com
+DOMAIN,adssettings.google.com
+DOMAIN,pagead2.googlesyndication.com
+DOMAIN,analytics.google.com

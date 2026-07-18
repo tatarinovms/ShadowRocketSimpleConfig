@@ -11,6 +11,64 @@ You are an expert Network Configuration Engineer specializing in the Shadowrocke
 
 The policy for each list is set ONCE in `baseline.conf` via `RULE-SET, ...list,<POLICY>`. Individual rules inside `.list` files do NOT carry a policy column.
 
+### Config ↔ Lists Consistency (STRICT)
+- **Every `lists/*.list` file MUST be imported in `baseline.conf`** under `[Rule]` via a `RULE-SET` line. No orphan files allowed — if a `.list` file exists, it must have a matching import.
+- **Every `.list` import MUST specify a policy in the third column.** Valid policies are listed below. A proxy group / subscription / node name may also be used as the policy.
+- **No import may reference a non-existent `lists/*.list` file.** Every `RULE-SET` line must point to a file that actually exists.
+- After any modification, verify 1:1 correspondence between `lists/*.list` filenames and `RULE-SET` imports in `baseline.conf` (no missing, no extra, no duplicate imports).
+
+---
+
+## [Rule] — Routing Rules
+
+### Rule Types
+
+| Type | Format | Description |
+|------|--------|-------------|
+| DOMAIN-SUFFIX | `DOMAIN-SUFFIX,example.com,POLICY` | Domain suffix match (`a.example.com`, `a.b.example.com`) |
+| DOMAIN-KEYWORD | `DOMAIN-KEYWORD,exa,POLICY` | Keyword found anywhere in the domain |
+| DOMAIN-WILDCARD | `DOMAIN-WILDCARD,a*c.example*.com,POLICY` | Wildcards `{*, ?}` |
+| DOMAIN | `DOMAIN,www.example.com,POLICY` | Full domain, exact match only |
+| USER-AGENT | `USER-AGENT,MicroMessenger*,POLICY` | User-Agent with `*` support |
+| URL-REGEX | `URL-REGEX,^https?://.+/item.+,POLICY` | Regular expression on the URL |
+| IP-CIDR | `IP-CIDR,192.168.1.0/24,POLICY` | IPv4/IPv6 range |
+| IP-CIDR (no-resolve) | `IP-CIDR,172.16.0.0/12,POLICY,no-resolve` | IP rule without DNS lookup for domains |
+| IP-ASN | `IP-ASN,56040,POLICY` | Autonomous System Number |
+| RULE-SET | `RULE-SET,URL,POLICY` | Rule set with typed rules |
+| DOMAIN-SET | `DOMAIN-SET,URL,POLICY` | Domain set without rule type |
+| SCRIPT | `SCRIPT,script_name,POLICY` | Script name (rule type) |
+| DST-PORT | `DST-PORT,443,POLICY` | Destination port |
+| GEOIP | `GEOIP,CN,POLICY` | GeoIP database |
+| FINAL | `FINAL,POLICY` | Default strategy |
+| AND | `AND,((DOMAIN,www.example.com),(DST-PORT,123)),POLICY` | Logical AND |
+| NOT | `NOT,((DST-PORT,123)),POLICY` | Logical NOT |
+| OR | `OR,((DST-PORT,123),(DST-PORT,456)),POLICY` | Logical OR |
+| PROTOCOL | `PROTOCOL,UDP` | Protocol (UDP, TCP) |
+
+### Policies
+
+| Policy | Description |
+|--------|-------------|
+| PROXY | Via the proxy server |
+| DIRECT | Directly, without proxy |
+| TAILSCALE | Via the Tailscale tunnel |
+| REJECT | HTTP 404, no content |
+| REJECT-DICT | HTTP 200 and empty JSON object `{}` |
+| REJECT-ARRAY | HTTP 200 and empty JSON array `[]` |
+| REJECT-200 | HTTP 200, no content |
+| REJECT-IMG | HTTP 200 and a 1px GIF |
+| REJECT-TINYGIF | HTTP 200 and a 1px GIF |
+| REJECT-DROP | Drop the IP packet |
+| REJECT-NO-DROP | ICMP "port unreachable" |
+
+The policy may also be a proxy group name, subscription name, group name, or node name.
+
+### Rule Priority
+1. Module rules take precedence over configuration rules.
+2. Rules are evaluated top to bottom.
+3. Domain rules (DOMAIN, DOMAIN-SUFFIX, DOMAIN-KEYWORD, DOMAIN-WILDCARD) take precedence over IP rules (IP-CIDR, IP-ASN, GEOIP).
+4. When DOMAIN, DOMAIN-SUFFIX, DOMAIN-WILDCARD, and DOMAIN-KEYWORD all match, only one type is applied.
+
 ---
 
 ## Technical Directives (STRICT)
@@ -24,12 +82,16 @@ The policy for each list is set ONCE in `baseline.conf` via `RULE-SET, ...list,<
 ### 2. File Placement Logic
 - `ai.list` — LLMs, AI APIs, AI-related CDNs (ChatGPT, Claude, Gemini, Copilot, Midjourney, etc.).
 - `games.list` — PlayStation, Xbox, gaming publishers, game launchers, mobile game studios (Supercell, Gameloft), related CDNs.
-- `telegram.list` — Telegram, TON, official and major client apps, IP/ASN ranges.
-- `meta.list` — Facebook, Instagram, WhatsApp, Meta, Oculus, and typosquat domains.
 - `fitness.list` — Workout, health, nutrition tracking.
+- `music.list` — Music streaming services, artists, labels, and related CDNs.
+- `video.list` — Video streaming platforms, movie/TV services, and related CDNs.
+- `nevamessenger.list` — Neva Messenger and related services.
+- `redtube.list` — RedTube and related adult content domains.
+- `ruads.list` — Russian ad/tracker domains to be REJECTed.
 - `rubanking.list` — Russian banks, fintech, payment systems, acquiring, gift cards, leasing.
 - `ruipchecker.list` — IP address check services used by Russian mobile apps.
 - `rudirect.list` — Russian local services that must bypass proxy (gov, retail, telecom, media, local CDNs, .ru/.рф).
+- `zetaservices.list` — Zeta Services and related domains.
 - `main.list` — Everything else: social media, media, news, productivity, tools, dev platforms, hardware vendors.
 
 ### 3. Syntax Standards

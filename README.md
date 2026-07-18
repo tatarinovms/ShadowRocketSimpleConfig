@@ -13,11 +13,13 @@
 | Файл | Политика | Описание |
 | :--- | :--- | :--- |
 | **ai.list** | PROXY | AI-сервисы (ChatGPT, Claude, Gemini, Copilot и другие) |
-| **main.list** | PROXY | Основные сервисы: соцсети, видео, медиа, новости, инструменты |
+| **main.list** | PROXY | Основные сервисы: соцсети, медиа, новости, инструменты |
 | **zetaservices.list** | PROXY | Сервисы аналога ВК |
 | **games.list** | PROXY | Игровые платформы: PlayStation, Xbox, Supercell, Gameloft, игровые CDNs |
 | **nevamessenger.list** | PROXY | Мессенджер родом из города на Неве |
 | **fitness.list** | PROXY | Сервисы для спорта и здоровья |
+| **music.list** | PROXY | Музыкальные стриминговые сервисы, лейблы и CDN |
+| **video.list** | PROXY | Видео стриминговые платформы, кино/ТВ сервисы и CDN |
 | **redtube.list** | PROXY | RedTube, RedMusic и CDN для них |
 | **rudirect.list** | DIRECT | Российские локальные сервисы, идущие напрямую |
 | **rubanking.list** | DIRECT | Российские банки и финансовые сервисы |
