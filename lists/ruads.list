@@ -28,6 +28,8 @@ DOMAIN,adsapp.dahlmessenger.com
 DOMAIN,adsapp.stage.telega.info
 DOMAIN,adsapp.telega.info
 DOMAIN,adsdk.yandex.ru
+DOMAIN,adservice.google.com
+DOMAIN,adssettings.google.com
 DOMAIN,adv.ozon.ru
 DOMAIN,adv.rustore.ru
 DOMAIN,adv.vk.com
@@ -47,6 +49,7 @@ DOMAIN,an.mail.ru
 DOMAIN,an.yandex.ru
 DOMAIN,analytics-adv.ozon.ru
 DOMAIN,analytics-stage.wildberries.ru
+DOMAIN,analytics.google.com
 DOMAIN,analytics.mobile.yandex.net
 DOMAIN,analytics.vk.com
 DOMAIN,analytics.vk.ru
@@ -82,10 +85,15 @@ DOMAIN,click.rustore.ru
 DOMAIN,clickstream.sberbank.ru
 DOMAIN,counter.yandex.ru
 DOMAIN,cxhub.ru
+DOMAIN-SUFFIX,doubleclick.net
 DOMAIN,e.mindbox.ru
 DOMAIN,error-tracking.megamarket.tech
 DOMAIN,g.mindbox.ru
 DOMAIN,google-analytics-suite.ozon.ru
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,googleadapis.com
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,googlesyndication.com
 DOMAIN,informer.yandex.ru
 DOMAIN,log.dzen.ru
 DOMAIN,log.strm.yandex.ru
@@ -104,6 +112,7 @@ DOMAIN,ms.vk.com
 DOMAIN,ms.vk.ru
 DOMAIN,new-adv.ozon.ru
 DOMAIN,obs.mts.ru
+DOMAIN,pagead2.googlesyndication.com
 DOMAIN,pixel.rustore.ru
 DOMAIN,prodvizhenie-adv.ozon.ru
 DOMAIN,questions-adv.ozon.ru
@@ -164,12 +173,3 @@ DOMAIN,yads.tech
 DOMAIN,yandex-metrica.ru
 DOMAIN,yandexmetrica.com
 DOMAIN,yango-ads.com
-DOMAIN-SUFFIX,doubleclick.net
-DOMAIN-SUFFIX,googlesyndication.com
-DOMAIN-SUFFIX,googleadservices.com
-DOMAIN-SUFFIX,google-analytics.com
-DOMAIN-SUFFIX,googleadapis.com
-DOMAIN,adservice.google.com
-DOMAIN,adssettings.google.com
-DOMAIN,pagead2.googlesyndication.com
-DOMAIN,analytics.google.com

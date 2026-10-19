@@ -1,3 +1,5 @@
+DOMAIN,2ip.io
+DOMAIN,2ip.ru
 DOMAIN-SUFFIX,checkip.amazonaws.com
 DOMAIN,eu.2gis.com
 DOMAIN-SUFFIX,ifconfig.me
@@ -7,5 +9,3 @@ DOMAIN-SUFFIX,ipify.org
 DOMAIN-SUFFIX,iplocate.io
 DOMAIN,ping.ozon.kz
 DOMAIN-SUFFIX,x5static.net
-DOMAIN,2ip.ru
-DOMAIN,2ip.io

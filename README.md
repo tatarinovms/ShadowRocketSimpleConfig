@@ -46,7 +46,7 @@
 
 Для скачивания с GitHub:
    ```
-   https://raw.githubusercontent.com/tatarinovms/ShadowRocketSimpleConfig/master/baseline.conf
+   https://raw.githubusercontent.com/tatarinovms/ShadowRocketSimpleConfig/main/baseline.conf
    ```
 Для скачивания с GitVerse:
    ```

@@ -6,6 +6,7 @@ DOMAIN-SUFFIX,filmix.fm
 DOMAIN-SUFFIX,formula1.com
 DOMAIN-SUFFIX,hbomax.com
 DOMAIN-SUFFIX,hdkinoteatr.com
+DOMAIN-KEYWORD,hdrezka
 DOMAIN-SUFFIX,hdrezka.ag
 DOMAIN-SUFFIX,hdstudio.org
 DOMAIN-SUFFIX,iptv.online
@@ -24,6 +25,7 @@ DOMAIN-SUFFIX,p-cdn.us
 DOMAIN-SUFFIX,pcdn.co
 DOMAIN-SUFFIX,primevideo.com
 DOMAIN-SUFFIX,pscp.tv
+DOMAIN-KEYWORD,rezka
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,seasonvar.ru
 DOMAIN-SUFFIX,smarttv.zeasn.tv
@@ -37,5 +39,3 @@ DOMAIN-SUFFIX,twvid.com
 DOMAIN-SUFFIX,vine.co
 DOMAIN-SUFFIX,zeflix.online
 DOMAIN-SUFFIX,zona.media
-DOMAIN-KEYWORD,hdrezka
-DOMAIN-KEYWORD,rezka
