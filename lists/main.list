@@ -212,11 +212,11 @@ DOMAIN-SUFFIX,skyscanner.com
 DOMAIN-SUFFIX,smtp-mail.outlook.com
 DOMAIN-SUFFIX,soi.lat
 DOMAIN-SUFFIX,steamcontent.com
-DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,steamstatic.com
-DOMAIN,teleos.club
+DOMAIN-SUFFIX,teampowered.com
 DOMAIN-SUFFIX,temu.com
+DOMAIN-SUFFIX,teleos.club
 DOMAIN-SUFFIX,tiptop-vpn.com
 DOMAIN-SUFFIX,trimble.com
 DOMAIN-SUFFIX,truthsocial.com
